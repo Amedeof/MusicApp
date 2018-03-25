@@ -9,51 +9,58 @@ import android.widget.ImageView;
 
 public class Song {
 
-    /**Song Title
+    /**
+     * Song Title
      */
     private String mSongTitle;
 
-    /**Album title
+    /**
+     * Album title
      */
     private String mAlbumTitle;
 
-    /**Album's image
+    /**
+     * Album's image
      */
     private int mAlbumImage;
 
-    /**create a new Song object
+    /**
+     * create a new Song object
      *
-     *@param vSongTitle is the title of the song user wants to play
-     *@param vAlbumTitle is the album which the song belongs to
-     *@param AlbumImage is the picture of the album
-    */
-    public Song(String vSongTitle, String vAlbumTitle, int AlbumImage){
+     * @param vSongTitle  is the title of the song user wants to play
+     * @param vAlbumTitle is the album which the song belongs to
+     * @param AlbumImage  is the picture of the album
+     */
+    public Song(String vSongTitle, String vAlbumTitle, int AlbumImage) {
         mSongTitle = vSongTitle;
         mAlbumTitle = vAlbumTitle;
         mAlbumImage = AlbumImage;
     }
 
-    /**Get the title of the song
+    /**
+     * Get the title of the song
      *
      * @return SongTitle
      */
-    public String getSongTitle(){
+    public String getSongTitle() {
         return mSongTitle;
     }
 
-    /**Get the title of the album
+    /**
+     * Get the title of the album
      *
      * @return AlbumTitle
      */
-    public String getAlbumTitle(){
+    public String getAlbumTitle() {
         return mAlbumTitle;
     }
 
-    /**Get the image of the album
+    /**
+     * Get the image of the album
      *
      * @return AlbumImage
      */
-    public int getAlbumImage(){
+    public int getAlbumImage() {
         return mAlbumImage;
     }
 }

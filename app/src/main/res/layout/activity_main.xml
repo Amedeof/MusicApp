@@ -2,11 +2,11 @@
 <GridView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gridSongs"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:numColumns="2"
     android:stretchMode="columnWidth"
-    tools:context="com.example.android.musicapp.MainActivity"
-    android:id="@+id/gridSongs">
+    tools:context="com.example.android.musicapp.MainActivity">
 
 </GridView>
